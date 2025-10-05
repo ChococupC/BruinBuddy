@@ -1,6 +1,6 @@
 Bruin Buddy — UCLA Virtual Student Advisor 🐻💙
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!(Disclaimer: It may not work due to the use of knowledge was aws workshop, also credentials are require to connect to them, this is only used for educational purpose and will not work withough aws credentials.)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!(Disclaimer: It may not work due to the use of knowledge base from aws workshop, also credentials are require to connect to them, this is only used to provide the source code and for competition purposes and will not work without the aws credentials. But you can add your own knowledge base in the tool.py and your own aws credential for the project to run!)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 A Streamlit-based chat UI that wraps a Strands agent to provide UCLA-focused help (clubs, academics, career resources). This repo contains the Streamlit front-end and a small bruin_buddy agent wrapper. The app streams agent replies, shows quick-action buttons, and uses UCLA colors in the UI.
@@ -38,12 +38,12 @@ source .venv/bin/activate # macOS / Linux
 
 # install dependencies
 
-pip install poetry
-poetry install
+1. pip install poetry
+   poetry install
 
-pip install -r requirements.txt
+2. pip install -r requirements.txt
 
-# run the Streamlit app (assuming the file is `app.py`)
+# run the Streamlit app
 
 streamlit run app.py
 
@@ -53,10 +53,12 @@ Configuration (environment & secrets)
 
 Create a .env (do not commit it) or set environment variables in your deploy platform. Example .env keys used by the code snippet you provided:
 
-BRUIN_CLUB_KB_ID=MT2OCGRZNH
-BRUIN_CAREER_KB_ID=VYAXJTAXPP
-AWS_REGION=us-east-1
-STRANDS_API_KEY=<your_strands_api_key_or_credentials_here>
+BRUIN_CLUB_TOOL1_ID= <Your knowledge base1>
+BRUIN_CAREER_TOOL2_ID= <Your knowledge base2>
+AWS_REGION=<Your Region>
 BRUIN_SYSTEM_PROMPT_FILE=./system_prompt.txt # optional: path to system prompt
 
-Security note: The system_prompt contains internal routing instructions — treat it like a secret. Do not commit real API keys or the system prompt to a public repository; use your host's secret manager or .env and include .env in .gitignore.
+Security note: The system_prompt contains internal routing instructions — treat it like a secret. Do not commit real API keys or the system prompt to a public repository; use your host's secret manager or .env and include .env in .gitignore. Keep your own aws credentials save with
+
+aws configure
+<your credentials>
