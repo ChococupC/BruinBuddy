@@ -1,7 +1,6 @@
 Bruin Buddy — UCLA Virtual Student Advisor 🐻💙
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!(Disclaimer: It may not work due to the use of knowledge base from aws workshop, also credentials are require to connect to them, this is only used to provide the source code and for competition purposes and will not work without the aws credentials. But you can add your own knowledge base in the tool.py and your own aws credential for the project to run!)
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Disclaimer: It may not work due to the use of knowledge base from aws workshop, also credentials are require to connect to them, this is only used to provide the source code and for competition purposes and will not work without the aws credentials. But you can add your own knowledge base in the tool.py and your own aws credential for the project to run!
 
 A Streamlit-based chat UI that wraps a Strands agent to provide UCLA-focused help (clubs, academics, career resources). This repo contains the Streamlit front-end and a small bruin_buddy agent wrapper. The app streams agent replies, shows quick-action buttons, and uses UCLA colors in the UI.
 
@@ -18,15 +17,11 @@ Prerequisites
 
 Python 3.10+
 
-Git
-
-pip (or a virtualenv/venv)
-
 Recommended local install
 
 # clone (replace with your repo URL)
 
-git clone git@github.com:your-username/BruinBuddy.git
+git clone git@github.com:ChococupC/BruinBuddy.git
 cd BruinBuddy
 
 # create a venv (optional but recommended)
