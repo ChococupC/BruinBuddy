@@ -54,8 +54,11 @@ Configuration (environment & secrets)
 Create a .env (do not commit it) or set environment variables in your deploy platform. Example .env keys used by the code snippet you provided:
 
 BRUIN_CLUB_TOOL1_ID = Your knowledge base1
+
 BRUIN_CAREER_TOOL2_ID = Your knowledge base2
+
 AWS_REGION = Your Region
+
 BRUIN_SYSTEM_PROMPT_FILE=./system_prompt.txt # optional: path to system prompt
 
 Security note: The system_prompt contains internal routing instructions — treat it like a secret. Do not commit real API keys or the system prompt to a public repository; use your host's secret manager or .env and include .env in .gitignore. Keep your own aws credentials save with
