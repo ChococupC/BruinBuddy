@@ -1,10 +1,10 @@
-Bruin Buddy — UCLA Virtual Student Advisor 🐻💙
+#Bruin Buddy — UCLA Virtual Student Advisor 🐻💙
 
 Disclaimer: It may not work due to the use of knowledge base from aws workshop, also credentials are require to connect to them, this is only used to provide the source code and for competition purposes and will not work without the aws credentials. But you can add your own knowledge base in the tool.py and your own aws credential for the project to run!
 
 A Streamlit-based chat UI that wraps a Strands agent to provide UCLA-focused help (clubs, academics, career resources). This repo contains the Streamlit front-end and a small bruin_buddy agent wrapper. The app streams agent replies, shows quick-action buttons, and uses UCLA colors in the UI.
 
-Overview
+###Overview
 
 Friendly, student-focused assistant for UCLA students (clubs, career, campus questions).
 
